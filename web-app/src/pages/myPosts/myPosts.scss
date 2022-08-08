@@ -1,0 +1,150 @@
+.myPosts {
+  height: 100vh;
+  display: flex;
+  flex: 4;
+  background-color: #f9eaec;
+  overflow-y: auto;
+}
+
+.myPostsWrapper {
+  height: calc(100vh - 50px);
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.myPostsCard {
+  width: 48%;
+  margin: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.myPostsContent {
+  padding: 15px;
+}
+
+.myOuterContentDiv {
+  display: flex;
+}
+
+.myUsernameDiv {
+  margin-left: 10px;
+  justify-content: start;
+}
+
+.myPostProfileImg {
+  width: 38px;
+  height: 40px;
+}
+
+.myDate-time {
+  font-size: 12px;
+  font-family: Poppins;
+}
+
+.myButtons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.myPostsDeleteBtn,
+.myPostsUpdateBtn {
+  background-color: black;
+  height: 40px;
+  width: 40%;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myPostsUpdateBtn {
+  background-color: #fc6076;
+}
+
+.topInnerContainer {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.deleteIcon {
+  color: #bb3c4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.btnContainer {
+  background-color: white;
+  height: 35px;
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 10px 5px 0px;
+  cursor: pointer;
+}
+
+.requestsSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  padding: 5px 0;
+}
+
+.requestsSectionBackground {
+  background-color: #efe6fa;
+  border-radius: 8px;
+}
+
+.myPostsUsername {
+  align-items: center;
+  justify-content: end;
+  font-weight: normal;
+  font-weight: bold;
+  margin: 0px;
+}
+
+
+.actionButton {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.acceptBtn,
+.declineBtn {
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  background-color: #c1a7e3;
+}
+
+.declineBtn {
+  margin-left: 15px;
+}
+
+.emptyMsg {
+  text-align: center;
+  color: rgb(187, 184, 184);
+}
+
+.statusButton {
+  background-color: #efe6fa;
+  font-weight: bold;
+  color: #5e2e9d;
+}

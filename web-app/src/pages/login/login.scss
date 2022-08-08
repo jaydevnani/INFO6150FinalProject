@@ -1,0 +1,78 @@
+.loginRow {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.loginLeft {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.loginRight {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #ffedef;
+}
+
+.loginTitle {
+  font-weight: 600;
+}
+.loginText {
+  color: rgb(156, 148, 148);
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.loginGoogleButton {
+  background-color: rgb(238, 243, 255);
+  border: 2px solid rgb(245, 243, 243);
+  color: black;
+  width: 60%;
+  padding: 7px 0;
+  font-weight: 600;
+}
+
+.loginGoogleButton:hover {
+  background-color: rgb(201, 224, 245);
+  color: black;
+  border: 2px solid rgb(245, 243, 243);
+}
+
+.loginForm {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.loginField {
+  width: 60%;
+}
+
+.loginButton {
+  background-color: rgb(224, 80, 80);
+  color: white;
+  border: none;
+  width: 60%;
+  padding: 7px 0;
+  font-weight: 600;
+  background-image: linear-gradient(96deg, #fc6076 0%, #ff9a44 100%);
+}
+
+.loginMutedText {
+  color: gray;
+}
+
+.loginSignup {
+  color: blue;
+}
+
+a{
+  text-decoration: none;
+}

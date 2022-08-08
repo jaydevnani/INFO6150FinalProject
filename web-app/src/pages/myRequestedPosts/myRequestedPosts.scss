@@ -1,0 +1,147 @@
+.showw {
+  color: red;
+  display: block;
+}
+
+.hidee {
+  color: white;
+display: none;
+}
+
+.posts {
+  flex: 6;
+  background-color: #f9eaec;
+  height: calc(100vh - 50px);
+}
+
+.postsWrapper {
+  padding: 15px;
+  flex-wrap: wrap;
+  gap: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+ 
+.postsCard {
+  height: 42%;
+  width: 48%;
+  margin: 10px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: inset -2px 1px 17px -6px rgba(255, 112, 126, 0.4);
+}
+
+.postsContent {
+  padding: 15px;
+}
+
+.outerContentDiv {
+  display: flex;
+}
+
+.divider{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status{
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dfd2f0;
+}
+
+.showw{
+  color: #5e2e9d;
+  font-weight: bold;
+}
+
+.usernameDiv {
+  margin-left: 10px;
+  justify-content: start;
+}
+
+.postProfileImg {
+  width: 38px;
+  height: 40px;
+}
+
+.postsUsername {
+  font-weight: bold;
+  margin: 0px;
+}
+
+.date-time {
+  font-size: 12px;
+  font-family: Poppins;
+}
+
+.innerContentDiv {
+  background-color: #fee8eb;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.postsTitle {
+  font-weight: 700;
+  color: black;
+}
+
+.postsDesc {
+  color: rgb(71, 71, 71);
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.topDiv,
+.bottomDiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 30px;
+}
+
+.planType {
+  justify-content: space-between;
+}
+
+.postsInterestedBtn {
+  height: 40px;
+  width: 40%;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topDiv,
+.bottomDiv {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
+.topDivContent {
+  width: 65%;
+}
+
+.topDivContent > h6,
+.members {
+  color: #c6384b;
+  font-weight: bold;
+}
+
+span {
+  color: black;
+  font-weight: 600;
+}

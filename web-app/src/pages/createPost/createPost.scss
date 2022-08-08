@@ -1,0 +1,53 @@
+.createPost {
+  flex: 4;
+}
+
+.createWrapper {
+  padding: 15px;
+  width: 45%;
+  margin: auto;
+  margin-top: 60px;
+  
+}
+
+.createHeading {
+  font-weight: bold;
+}
+
+.createSaveBtn {
+  width: 100%;
+  background-image: linear-gradient(96deg, #fc6076 0%, #ff9a44 100%);
+  border: none;
+}
+
+.createSaveBtn:hover {
+  background-image: linear-gradient(96deg, #bd2f42 0%, #c47026 100%);
+}
+
+.createSaveBtn:active,
+.createSaveBtn:focus {
+  background-color: #933642;
+  box-shadow: 0 0 0 0.25rem rgb(244 212 212);
+}
+
+.lottieCenter {
+  background-color: rgb(204, 249, 136);
+}
+
+.dropdown,
+#dropdown-basic {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: 0.1px solid rgb(227, 227, 227);
+  border-radius: 5px;
+}
+
+.dd-menu {
+  width: 100%;
+}
+
+#dropdown-basic:active,
+#dropdown-basic:focus {
+  box-shadow: 0 0 0 0.25rem rgb(244 212 212);
+}

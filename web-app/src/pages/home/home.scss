@@ -1,0 +1,222 @@
+.section {
+  display: flex;
+  margin-top: 50px;
+}
+
+.checkboxFilter > input {
+  display: flex;
+}
+
+.posts {
+  flex: 10;
+  background-color: #f9eaec;
+  overflow: auto;
+}
+
+.postsWrapper {
+  padding: 15px;
+  flex-wrap: wrap;
+  gap: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.postsCard {
+  height: 42%;
+  width: 48%;
+  margin: 10px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: inset -2px 1px 17px -6px rgba(255, 112, 126, 0.4);
+}
+
+.postsContent {
+  padding: 15px;
+}
+
+.outerContentDiv {
+  display: flex;
+}
+
+.usernameDiv {
+  margin-left: 10px;
+  justify-content: start;
+}
+
+.postProfileImg {
+  width: 38px;
+  height: 40px;
+}
+
+.postsUsername {
+  font-weight: bold;
+  margin: 0px;
+}
+
+.date-time {
+  font-size: 12px;
+  font-family: Poppins;
+}
+
+.innerContentDiv {
+  background-color: #fee8eb;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.postsTitle {
+  font-weight: 700;
+  color: black;
+}
+
+.postsDesc {
+  color: rgb(71, 71, 71);
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.topDiv,
+.bottomDiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 30px;
+}
+
+.planType {
+  justify-content: space-between;
+}
+
+.postsInterestedBtn {
+  height: 40px;
+  width: 40%;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topDiv,
+.bottomDiv {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
+.topDivContent {
+  width: 65%;
+}
+
+.topDivContent > h6,
+.members {
+  color: #c6384b;
+  font-weight: bold;
+}
+
+span {
+  color: black;
+  font-weight: 600;
+}
+
+.filterbar {
+  flex: 1;
+  height: calc(100vh - 50px);
+  background-image: linear-gradient(96deg, #fc6076 0%, #ff9a44 100%);
+  position: sticky;
+  top: 50px;
+  overflow: auto;
+}
+
+.filterbarWrapper {
+  padding: 20px;
+}
+
+.filterbarMenu {
+  margin-bottom: 10px;
+}
+
+.filterbarTitle {
+  font-weight: bold;
+  color: white;
+}
+
+.filterbarList {
+  list-style: none;
+  padding: 5px;
+}
+
+.filterbarListItem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.filterbarListItem:hover {
+  background-image: linear-gradient(96deg, #bf3749 0%, #a96123 100%);
+  color: white;
+}
+
+.filterbarIcon {
+  margin-right: 5px;
+  font-size: 20px !important;
+}
+
+form {
+  color: black;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.resetBtn,
+.applyBtn {
+  height: 35px;
+  width: 40%;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resetBtn:hover,
+.applyBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.buttonSection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h6 {
+  font-weight: bolder;
+}
+
+.checkboxFilter > input[type="checkbox"]:checked {
+  background-color: black;
+  border: black;
+  accent-color: black;
+}
+
+.checkboxFilter{
+  accent-color: black;
+}
+
+input[type="checkbox"]:checked{
+  background-color: black;
+  border: black;
+  accent-color: black;
+}
