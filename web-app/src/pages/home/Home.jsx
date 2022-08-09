@@ -5,7 +5,7 @@ import { format } from "timeago.js";
 import ErrorModal from "../../components/errorModal/ErrorModal";
 import "./home.scss";
 import axios from "axios";
-
+//filterwork
 export default function Home() {
   const [userinfo, setUserInfo] = useState({ languages: [], response: [] });
   const [filteredPosts, setFilteredPosts] = useState([]);
@@ -37,6 +37,7 @@ export default function Home() {
     const { languages } = userinfo;
 
     // Case 1 : The user checks the box
+
     if (checked) {
       setUserInfo({
         languages: [...languages, value],
@@ -45,6 +46,7 @@ export default function Home() {
     }
 
     // Case 2  : The user unchecks the box
+
     else {
       setUserInfo({
         languages: languages.filter((e) => e !== value),
@@ -118,6 +120,8 @@ export default function Home() {
     }
   }, []);
 
+  // UI Part
+
   return (
     <div>
       <div className="section">
@@ -159,7 +163,7 @@ export default function Home() {
 
               <br />
               <h6>Plan Capacity</h6>
-              <div className="checkboxFilter">
+              <div className="checkboxFilter"> 
                 <div>
                   <input
                     onChange={handleCheckbox}
