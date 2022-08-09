@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Web Design Final Project - Family Plan Finder",
+  "description": "Web Design Final Project - WIRE FLY",
   "main": "server.js",
   "type": "module",
   "scripts": {
