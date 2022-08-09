@@ -33,7 +33,7 @@ export const getMyRequests = async (request, response) => {
   }
 };
 
-// create a new post
+// Create a new Post
 export const post = async (request, response) => {
   try {
     const payload = request.body;
@@ -44,7 +44,7 @@ export const post = async (request, response) => {
   }
 };
 
-// get a single post
+// Get a single post
 export const get = async (request, response) => {
   try {
     const post = await postService.get(request.params.id);
@@ -54,7 +54,7 @@ export const get = async (request, response) => {
   }
 };
 
-// update a post
+// Updating a post
 export const update = async (request, response) => {
   try {
     const post = await postService.get(request.params.id);
@@ -65,7 +65,7 @@ export const update = async (request, response) => {
   }
 };
 
-// delete a post
+// Deleting a post
 export const deleteById = async (request, response) => {
   try {
     const post = await postService.get(request.params.id);
@@ -76,7 +76,7 @@ export const deleteById = async (request, response) => {
   }
 };
 
-// get all post of a user by username
+// Retreving all the posts by username 
 export const getByUser = async (request, response) => {
   try {
     const usersPost = await postService.getPostsForUser(request.params.userid);
