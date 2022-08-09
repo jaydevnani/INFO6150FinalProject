@@ -1,3 +1,6 @@
+
+// This is for Stripe Configuration
+
 import * as checkoutService from "./../services/checkout-service.js";
 
 const setSuccessResponse = (obj, response) => {
