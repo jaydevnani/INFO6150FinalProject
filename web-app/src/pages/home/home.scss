@@ -60,7 +60,7 @@
 }
 
 .innerContentDiv {
-  background-color: #fee8eb;
+  background-color:  #8fd1ea;
   padding: 10px;
   border-radius: 8px;
   margin-bottom: 15px;
@@ -115,7 +115,7 @@
 
 .topDivContent > h6,
 .members {
-  color: #c6384b;
+  color: #8fd1ea;
   font-weight: bold;
 }
 
@@ -127,7 +127,7 @@ span {
 .filterbar {
   flex: 1;
   height: calc(100vh - 50px);
-  background-image: linear-gradient(96deg, #fc6076 0%, #ff9a44 100%);
+  background-image: linear-gradient(96deg, #89b6c3 0%, #d7c0a8 100%);
   position: sticky;
   top: 50px;
   overflow: auto;
