@@ -12,7 +12,7 @@ const Schema = new mongoose.Schema(
     },
     title: {
       type: String,
-      required: "Title is required",
+      required: "Title Input is required",
       max: 50,
     },
     desc: {
@@ -21,20 +21,20 @@ const Schema = new mongoose.Schema(
     },
     price: {
       type: Number,
-      required: "Price is required",
+      required: "Price Input is required",
     },
     planType: {
       type: String,
-      required: "Plan type is required",
+      required: "Plan type Input is required",
       max: 50,
     },
     totalMembersRequired: {
       type: Number,
-      required: "Total number of members is required",
+      required: "Total number of members Input is required",
     },
     membersRequired: {
       type: Number,
-      required: "Number of members is required",
+      required: "Number of members Input is required",
     },
     status: {
       type: String,
