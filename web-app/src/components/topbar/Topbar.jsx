@@ -19,7 +19,7 @@ export default function Topbar() {
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
-          <span className="logo"><a href="/">MOBILE PLAN FINDER</a></span>
+          <span className="logo"><a href="/">WIRE FLY</a></span>
         </div>
         {/* ----- Navbar items ----- */}
         <div className="topCenter">
