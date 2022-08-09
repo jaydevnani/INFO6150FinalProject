@@ -16,7 +16,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-// get all messsages of a conversation
+// We get all the messages in the conversation
 router.get("/:conversationId", async (req, res) => {
   try {
     const messages = await Message.find({
