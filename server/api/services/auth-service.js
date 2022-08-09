@@ -28,24 +28,25 @@ export const findUser = async (email) => {
 // 6 digit otp will be sent
 export const sendOtp = async (userData) => {
   const otp = Math.floor(100000 + Math.random() * 900000);
-  const transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-      user: process.env.EMAIL,
-      pass: process.env.PASSWORD,
-    },
-  });
+  // const transporter = nodemailer.createTransport({
+  //   service: "gmail",
+  //   auth: {
+  //     user: process.env.EMAIL,
+  //     pass: process.env.PASSWORD,
+  //   },
+  // });
 
-  const mailOptions = {
-    from: process.env.EMAIL,
-    to: userData.email,
-    bcc: "bhimani.a@northeastern.edu",
-    subject: "One Time Password for Mobile Plan Finder",
-    text: `Dear ${
-      userData.firstName + " " + userData.lastName + ","
-    }\n\nThank you for choosing Mobile Plan Finder.\n\nUse the following OTP to complete your Sign Up procedure.\n\n${otp}\n\nRegards,\nTeam Reactors.`,
-  };
+  // const mailOptions = {
+  //   from: process.env.EMAIL,
+  //   to: userData.email,
+  //   bcc: "devnani.j@northeastern.edu",
+  //   subject: "One Time Password for Mobile Plan Finder",
+  //   text: `Dear ${
+  //     userData.firstName + " " + userData.lastName + ","
+  //   }\n\nThank you for choosing Mobile Plan Finder.\n\nUse the following OTP to complete your Sign Up procedure.\n\n${otp}\n\nRegards,\nTeam Reactors.`,
+  // };
 
-  const data = await transporter.sendMail(mailOptions);
-  return { data, otp };
+  // const data = await transporter.sendMail(mailOptions);
+  console.log("OTP:", otp);
+  return { otp };
 };

@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon server.js"
   },
-  "author": "Akash Rajesh Bhimani",
+  "author": "Jay Devnani",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
