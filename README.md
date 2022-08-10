@@ -48,3 +48,13 @@ Frontend: ReactJS
 Backend: NodeJS
 Database: MongoDB
 Styles: Bootstrap
+
+## :computer: Group Members
+<b>Name: Shraddha Mhetre</b>&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;<b>Name: Jay Devnani</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br />	
+<b>NUID : 001523741</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;<b>NUID : 001521319</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <br/>
+<b>mhetre.s@northeastern.edu</b>&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;<b>devnani.j@northeastern.edu</b>&emsp;&emsp;&emsp;
+
+
+<b>Name: Dushyanth Srinilay Jalaparthi</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<b>Name: Dheeraj Reddy Bommareddy</b></br>
+<b>NUID : 002927088</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<b>NUID : 002927813</b></br>
+<b>jalaparthi.d@northeastern.edu</b>&emsp;&emsp;&emsp;<b>bommareddy.d@northeastern.edu</b>
