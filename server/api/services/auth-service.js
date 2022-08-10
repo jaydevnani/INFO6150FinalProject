@@ -28,25 +28,23 @@ export const findUser = async (email) => {
 // 6 digit otp will be sent
 export const sendOtp = async (userData) => {
   const otp = Math.floor(100000 + Math.random() * 900000);
-  let transporter = nodemailer.createTransport({
-    auth: {
-      user: process.env.EMAIL,
-      pass: process.env.PASSWORD,
-    },
-  });
+  // let transporter = nodemailer.createTransport({
+  //   auth: {
+  //     user: process.env.EMAIL,
+  //     pass: process.env.PASSWORD,
+  //   },
+  // });
 
-  const mailOptions = {
-    from: process.env.EMAIL,
-    to: userData.email,
-    bcc: "jdevnani@gmail.com",
-    subject: "One Time Password for WireFly",
-    text: `Dear ${
-      userData.firstName + " " + userData.lastName + ","
-    }\n\nThank you for choosing Mobile Plan Finder.\n\nUse the following OTP to complete your Sign Up procedure.\n\n${otp}\n\nRegards,\nTeam WireFly.`,
-  };
+  // const mailOptions = {
+  //   from: process.env.EMAIL,
+  //   to: userData.email,
+  //   subject: "One Time Password for WireFly",
+  //   text: `Dear ${
+  //     userData.firstName + " " + userData.lastName + ","
+  //   }\n\nThank you for choosing WireFly.\n\nUse the following OTP to complete your Sign Up procedure.\n\n${otp}\n\nRegards,\nTeam WireFly.`,
+  // };
 
-  const data = await transporter.sendMail(mailOptions);
+  // await transporter.sendMail(mailOptions);
   console.log("OTP:", otp);
-  console.log(data)
   return { otp };
 };
