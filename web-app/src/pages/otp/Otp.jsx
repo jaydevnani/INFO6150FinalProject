@@ -7,6 +7,8 @@ import axios from "axios";
 import { useNavigate, useLocation } from "react-router-dom";
 import ErrorModal from "../../components/errorModal/ErrorModal";
 
+//OTP PAGE UI
+
 export default function Otp() {
   const otp = useRef();
   const navigate = useNavigate();
