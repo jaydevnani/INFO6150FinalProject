@@ -5,6 +5,8 @@ import ModalDelete from "../../components/modalDelete/ModalDelete";
 import { BsFillTrashFill, BsCheckLg, BsXLg } from "react-icons/bs";
 import ErrorModal from "../../components/errorModal/ErrorModal";
 
+// MyPost UI created
+
 export default function MyPosts() {
   let user;
   if (localStorage.getItem("user")) {

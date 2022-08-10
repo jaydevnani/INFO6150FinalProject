@@ -8,6 +8,8 @@ import axios from "axios";
 import { AuthContext } from "../../context/AuthContext";
 import { io } from "socket.io-client";
 
+//Chat Page UI
+
 export default function Messenger() {
   let user;
   if (localStorage.getItem("user")) {

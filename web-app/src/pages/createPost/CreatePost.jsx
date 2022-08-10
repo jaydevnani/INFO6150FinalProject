@@ -7,6 +7,8 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import ErrorModal from "../../components/errorModal/ErrorModal";
 
+//Create Post UI created
+
 export default function CreatePost() {
   let user;
   if (localStorage.getItem("user")) {
