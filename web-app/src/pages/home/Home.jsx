@@ -164,65 +164,6 @@ export default function Home() {
               </div>
 
               <br />
-              <h6>Plan Capacity</h6>
-              <div className="checkboxFilter"> 
-                <div>
-                  <input
-                    onChange={handleCheckbox}
-                    type="checkbox"
-                    name="plans"
-                    value="5"
-                  />
-                  5 Members
-                </div>
-                <div>
-                  <input
-                    onChange={handleCheckbox}
-                    type="checkbox"
-                    name="plans"
-                    value="6"
-                  />
-                  6 Members
-                </div>
-                <div>
-                  <input
-                    onChange={handleCheckbox}
-                    type="checkbox"
-                    name="plans"
-                    value="7"
-                  />
-                  7 Members
-                </div>
-                <div>
-                  <input
-                    onChange={handleCheckbox}
-                    type="checkbox"
-                    name="plans"
-                    value="8"
-                  />
-                  8 Members
-                </div>
-                <div>
-                  <input
-                    onChange={handleCheckbox}
-                    type="checkbox"
-                    name="plans"
-                    value="9"
-                  />
-                  9 Members
-                </div>
-                <div>
-                  <input
-                    onChange={handleCheckbox}
-                    type="checkbox"
-                    name="plans"
-                    value="10"
-                  />
-                  10 Members
-                </div>
-              </div>
-
-              <br />
               <h6>Plan Price</h6>
               <div className="checkboxFilter">
                 <div>
