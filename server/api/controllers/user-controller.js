@@ -1,10 +1,12 @@
 import * as userService from "./../services/user-service.js";
 
+// setting success response for when program is successful
 const setSuccessResponse = (obj, response) => {
   response.status(200);
   response.json(obj);
 };
 
+// setting error response for when program runs into an error of some kind
 const setErrorResponse = (error, response) => {
   response.status(500);
   response.json(error);

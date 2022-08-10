@@ -2,11 +2,13 @@ import * as authService from "./../services/auth-service.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 
+// success response when program is successful
 const setSuccessResponse = (obj, response) => {
   response.status(200);
   response.json(obj);
 };
 
+// error response for whenever program runs into error
 const setErrorResponse = (error, response) => {
   response.status(500);
   response.json(error);

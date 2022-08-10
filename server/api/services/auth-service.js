@@ -28,6 +28,7 @@ export const findUser = async (email) => {
 // 6 digit otp will be sent
 export const sendOtp = async (userData) => {
   const otp = Math.floor(100000 + Math.random() * 900000);
+  // controls email sender flow
   // let transporter = nodemailer.createTransport({
   //   auth: {
   //     user: process.env.EMAIL,
