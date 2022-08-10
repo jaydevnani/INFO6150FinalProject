@@ -6,6 +6,8 @@ import ErrorModal from "../../components/errorModal/ErrorModal";
 import "./home.scss";
 import axios from "axios";
 //filterwork
+
+//Homepage UI
 export default function Home() {
   const [userinfo, setUserInfo] = useState({ languages: [], response: [] });
   const [filteredPosts, setFilteredPosts] = useState([]);

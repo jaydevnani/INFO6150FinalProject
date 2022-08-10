@@ -5,6 +5,8 @@ import axios from "axios";
 import ModalInterested from "../../components/modalInterested/ModalInterested";
 import ErrorModal from "../../components/errorModal/ErrorModal";
 
+//Requested post UI
+
 export default function MyRequestedPosts() {
   let user;
   if (localStorage.getItem("user")) {
